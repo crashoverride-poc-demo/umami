@@ -107,6 +107,8 @@ umami:
 # PostgreSQL configuration
 postgresql:
   enabled: true
+  image:
+    tag: latest
   auth:
     enablePostgresUser: true
     postgresPassword: ""
