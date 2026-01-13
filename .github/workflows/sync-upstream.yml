@@ -6,7 +6,7 @@ permissions:
 on:
   schedule:
     # Run every half hour
-    - cron: "*/30 * * * *"
+    - cron: "15/45 * * * *"  
   workflow_dispatch:
 
 jobs:
