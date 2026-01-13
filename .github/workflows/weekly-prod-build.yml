@@ -3,7 +3,7 @@ name: Weekly Production Build
 on:
   schedule:
     # Run every Wednesday at 2:00 PM UTC
-    - cron: "0 14 * * 3"
+    - cron: "0 8 * * 3"
   workflow_dispatch:
 
 jobs:
